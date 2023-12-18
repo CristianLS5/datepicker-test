@@ -1,0 +1,7 @@
+
+<label fd-form-label for="compactDatePicker">Compact Date Picker</label>
+<fd-date-picker type="single" inputId="compactDatePicker" [(ngModel)]="date" fdCompact (input)="onInput($event)" placeholder="DD/MM/YYYY"></fd-date-picker>
+<div *ngIf="errorMessage">
+    <div fd-generic-tag type="error" name="Fecha incorrecta"></div>
+</div>
+<div>Selected Date: {{ date || 'null' }}</div>

@@ -1,0 +1,11 @@
+<form [formGroup]="dateForm">
+
+  <div>
+    <fd-date-picker appEuropeanDateFormat formControlName="date" type="single" displayMonths="1"
+      placeholder="DD/MM/YYYY">
+    </fd-date-picker>
+  </div>
+
+  <input type="text" formControlName="datetext" appEuropeanDateFormat placeholder="DD/MM/YYYY">
+
+</form>

@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@sap-theming/theming-base-content/content/Base/baseLib/sap_horizon/css_variables.css';
+@import '~fundamental-styles/dist/fonts/sap_fiori_3_fonts.css';
+@import '~fundamental-styles/dist/fonts/sap_fonts.css';
+@import '~fundamental-styles/dist/fonts/sap_horizon_fonts.css';
+@import '~fundamental-styles/dist/theming/sap_horizon.css';
+@import '~fundamental-styles/dist/icon.css';
+
+@font-face {
+    font-family: '72';
+    src: url('~@sap-theming/theming-base-content/content/Base/baseLib/baseTheme/fonts/72-Regular-full.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '72-Light';
+    src: url('~@sap-theming/theming-base-content/content/Base/baseLib/baseTheme/fonts/72-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '72';
+    src: url('~@sap-theming/theming-base-content/content/Base/baseLib/baseTheme/fonts/72-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '72-Bold';
+    src: url('~@sap-theming/theming-base-content/content/Base/baseLib/baseTheme/fonts/72-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '72-SemiboldDuplex';
+    src: url('~@sap-theming/theming-base-content/content/Base/baseLib/baseTheme/fonts/72-SemiboldDuplex.woff')
+        format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: '72', sans-serif;
+}
